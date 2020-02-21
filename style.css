@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' ;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #414040;
+}
+.header-top{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    height: 1072px;;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+    overflow: hidden;
+}
+.margin-top{
+    margin-top: 130px;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width h2{
+    margin-top: 130px;
+}
+.half-width h1{
+    font-size: 40px;
+    color: coral;
+}
+.half-width a{
+    padding: 10px 30px;
+    color: white;
+    background-image: linear-gradient(90deg, rgb(231, 176, 23),coral);
+    border-radius: 10px;
+}
+.bio-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.leatest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.leatest-work-area h2{
+    text-align: center;
+    margin-top: 190px;
+    font-size: 40px;
+}
+.leatest-work{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+.leatest-work-area h2{
+    text-align: center;
+    padding: 30px 0;
+}
+.leatest-work img{
+    width: 30%;
+    margin-left: 3%;
+}
+.leatest-work img:first-child{
+    margin-left: 0;
+}
+.client-area{
+    padding: 150px 0;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.client-des{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.client-des h1{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.client-des h3{
+    margin: -25px;
+}
+.client-des h5{
+    color: rgb(126, 124, 124);
+}
+.message-box{
+    text-align: center;
+    background-image: linear-gradient(90deg, rgb(231, 176, 23),coral);
+    width: 40%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+}
